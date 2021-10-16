@@ -5,7 +5,7 @@ const output = document.getElementById('output');
 class Url {
     #url;
     debugger;
-    constructor(url){
+    constructor(url) {
         this.#url = new URL(url);
     }
     href() {
@@ -47,13 +47,12 @@ function getUrlParts(url) {
     output.innerText = `{
         href: ${getURL.href()}
         origin: ${getURL.origin()}
+        protocol: ${getURL.protocol()}
         host: ${getURL.host()}
         port: ${getURL.port()}
-        protocol: ${getURL.protocol()}
         path: ${getURL.path()}
         anchor: ${getURL.anchor()}
     }`;
-
 }
 
 const validation = (form) => {
