@@ -44,14 +44,22 @@ class Url {
 
 function getUrlParts(url) {
     const getURL = new Url(url);
-    console.log(getURL.protocol());
-    console.log(getURL.anchor());
-    console.log(getURL.path());
+    output.innerText = `{
+        href: ${getURL.href()}
+        origin: ${getURL.origin()}
+        host: ${getURL.host()}
+        port: ${getURL.port()}
+        protocol: ${getURL.protocol()}
+        path: ${getURL.path()}
+        anchor: ${getURL.anchor()}
+    }`;
+
 }
 
 const validation = (form) => {
     try {
         if (form.elements[0].value) {
+            debugger;
             getUrlParts(form.elements[0].value);
         }
         else { throw 'Fields are required..!'; }

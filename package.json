@@ -1,0 +1,24 @@
+{
+  "name": "karademy",
+  "version": "1.0.0",
+  "description": "mini challeng",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amene-mi/Get_Url_Parts.git"
+  },
+  "keywords": [
+    "javascript",
+    "OOP",
+    "Get_Url_parts"
+  ],
+  "author": "Amene Mohammadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amene-mi/Get_Url_Parts/issues"
+  },
+  "homepage": "https://github.com/amene-mi/Get_Url_Parts#readme"
+}
