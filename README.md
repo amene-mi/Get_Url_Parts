@@ -1,5 +1,5 @@
 # Get_Url_Parts
  Karademy
 
- #install
+## install
  npm i
