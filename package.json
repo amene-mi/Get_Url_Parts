@@ -1,10 +1,15 @@
 {
   "name": "karademy",
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
   "version": "1.0.0",
   "description": "mini challeng",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "type": "module"
   },
   "repository": {
     "type": "git",
@@ -20,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/amene-mi/Get_Url_Parts/issues"
   },
-  "homepage": "https://github.com/amene-mi/Get_Url_Parts#readme"
+  "homepage": "https://github.com/amene-mi/Get_Url_Parts#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
